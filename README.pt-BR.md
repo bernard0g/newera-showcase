@@ -96,10 +96,6 @@ Um espaço de pesquisa para medir a robustez dos guardrails de LLMs. Ele registr
 
 Suíte de testes do backend (pytest): **458 passando** em 27/10/2026, no Windows. Os 6 testes que acessam serviços externos reais ficam fora por padrão (`-m 'not network'`).
 
-## Como usei IA
-
-Construído com o Claude Code. Eu defini o escopo, o modelo de autorização, o threat model, os contratos das ferramentas e os fluxos, e reviso e testo os resultados.
-
 ## Status e limitações
 
 - Projeto pessoal em desenvolvimento ativo; sem auditoria de terceiros.

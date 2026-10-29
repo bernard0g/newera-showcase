@@ -96,10 +96,6 @@ A research workspace for measuring how robust LLM guardrails are. It records eac
 
 Backend test suite (pytest): **458 passed** on 2026-10-27, Windows. The 6 tests that reach real external services are excluded by default (`-m 'not network'`).
 
-## How I used AI
-
-Built with Claude Code. I defined the scope, the authorization model, the threat model, the tool contracts and the workflows, and I review and test the results.
-
 ## Status and limitations
 
 - Personal project in active development; not audited by a third party.
